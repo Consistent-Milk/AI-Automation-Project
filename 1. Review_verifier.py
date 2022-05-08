@@ -121,6 +121,5 @@ for review_id in review_id_list:
                 continue
     index = index + 1
     print(f'Verified: {index}')
-filepath = Path('F:/Python/Data Science/RR Contest Library/3. Review_Data.csv')
-filepath.parent.mkdir(parents=True, exist_ok=True)
-df1.to_csv(filepath)
+
+    * Further codes omitted.
