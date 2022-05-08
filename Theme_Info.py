@@ -15,10 +15,6 @@ def may_thread():
 
 
 def allowed_themes():
-    themes = [
-        'female_lead', 'space_opera', 'COMPLETED', 'one_shot',
-        'villainous_lead', 'comedy', 'anti-hero_lead', 'cyberpunk',
-        'Artificial_Intelligence', 'First_Contact'
-    ]
+    themes = [*Omitted*]
 
     return themes
