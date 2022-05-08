@@ -7,7 +7,7 @@ worksheet = google_AI.spreadsheet('Participant List')
 def get_id():
     submitted_names = []
     review_id_list = []
-    for i in range(2, 48):
+    for i in range(*, *):
         values_list = worksheet.row_values(i)
         name = values_list[0]
         review_id = values_list[2]
