@@ -121,6 +121,5 @@ for review_id in review_id_list:
         ])
     df5 = pd.concat([df5, df6])
 
-filepath = Path('F:/Python/Data Science/RR Contest Library/4. Allocated_Points.csv')
-filepath.parent.mkdir(parents=True, exist_ok=True)
-df5.to_csv(filepath)
+*Further codes omitted*
+
